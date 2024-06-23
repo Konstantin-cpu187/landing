@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>РАБОТА ПО БЭМ</title>
+   <link rel="stylesheet" href="css\style.css">
+
+</head>
+<body>
+
+   
+      <header class="header">
+        <div class="container">
+             <div class="header__wrap">
+                <div class="header__logo">
+                   <div class="header__img"></div>
+                   <div class="header__control">
+                     <a href="/">Ru</a>
+                     <a class="header__list" href="/"></a>
+                   </div>   
+                </div>
+
+                <div class="header__contacts">
+                      <a href="tel:+97226661337">+97226661337</a>
+                    <div class="header__chat chat-header">
+                      <a class="chat__header" href="/"></a>
+                      <a class="chat__header chat__header--link" href="/"></a>
+                    </div>
+                </div>
+                <form class="header__form" action="/search/" target="_blank">
+                   <input class="header__input" type="search" name="text" required placeholder="Что ищем?">
+                </form>
+                <div class="header__link">
+                   <a class="header__link__login-button header__link__login-button--thumb " href="/">Компания</a>
+                   <a class="header__link__login-button" href="/" >Кабинет</a>
+                </div>
+               </div>
+             <div class="header__item">
+               <ul class="header__services">
+                  <li><a class="header__items" href="/">Автомобиль</a></li>
+                  <li><a class="header__items"href="/">Здоровье</a></li>
+                  <li><a class="header__items" href="/">Путешествия</a></li>
+                  <li><a class="header__items" href="/">Имущество</a></li>
+                  <li><a class="header__items" href="/">Финансы</a></li>  
+               </ul>
+                  <div class="header__button"><a href="/">Обратный звонок </a></div>
+             </div>
+        </div>
+      </header>  
+   
+
+   
+      <div class="container">
+         <section class="slide">
+            <div class="slide__title">
+               <h1>Страхование путешествий онлайн</h1>
+               <p>Программы страхования путешествий заграницу. Возможность оформить полис в поездке. Passportcard.</p>
+               <div class="slide__button"><a href="/">Оформить онлайн</a></div>
+            </div>
+            <div class="slide__image">
+               <img src="img/First.png" alt="девушка">
+            </div>
+               <img class="slide__pic" src="img/Controller.png" alt="прокрутка">
+         </section>
+      </div>
+     
+
+  
+      <div class="container">
+         <section class="insurance">
+            <h2>Быстрый расчёт страховки</h2>
+            <div class="insurance__menu">
+               <div class="insurance__button active"><a href="/">Путешествия</a></div>
+               <div class="insurance__button"><a href="/">Автомобиль</a></div>
+               <div class="insurance__button"><a href="/">Здоровье</a></div>
+            </div>
+            <div class="insurance__content">
+               <div class="insurance__title">
+                  <h3>Рассчитайте стоимость страховки путешественника и оформите полис</h3>
+                  <p>Расчёт стоимости страховки на онлайн-калькуляторе за пару минут.</p>
+               </div>
+               <form class="insurance__form" action="/" method="get">
+                  <div class="insurance__inner">
+                     <label class="insurance__label" for="user-id">Укажите страну</label>
+                     <input class="insurance__input" type="text" required placeholder="Placeholder" id="user-id">
+                  </div>   
+                     <label class="insurance__label" for="date-id">Дата поездки</label>
+                  <div class="insuranse__wrap">
+                     <input class="insurance__input insurance__input--wide" type="date" name="begin" placeholder="__ . __ . ____" id="date-id">
+                     <div class="insuranse__dash"></div>
+                     <input class="insurance__input insurance__input--wide" type="date" name="begin" placeholder="__ . __ . ____" id="date-id">
+                  </div>   
+                  <button class="insurance__clik"><a href="/">Рассчитать</a></button>
+               </form>
+            </div>
+         </section>
+      </div>
+  
+
+
+   
+      <section class="benefits"> 
+         <div class="container">
+            <div class="benefits__title">
+               <h2>Купить страховку онлайн</h2>
+               <div class="benefits__grid">
+                  <div class="benefits__card">
+                     <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMzLjEwOCAyMi4yMUMzMy41ODIzIDIxLjk3MzkgMzQuMTMwOSAyMS45MzU3IDM0LjYzMzMgMjIuMTAzN0MzNS4xMzU4IDIyLjI3MTcgMzUuNTUxMSAyMi42MzIyIDM1Ljc4OCAyMy4xMDZDMzYuMDIgMjMuNTgxNiAzNi4wNTYgMjQuMTI5MiAzNS44ODg1IDI0LjYzMTFDMzUuNzIwOSAyNS4xMzMgMzUuMzYzMSAyNS41NDkxIDM0Ljg5MiAyNS43OUMzMS42MDQgMjcuNDMgMjcuNjIgMjggMjQgMjhDMjAuMzggMjggMTYuMzk2IDI3LjQzIDEzLjEwOCAyNS43OUMxMi42MzY5IDI1LjU0OTEgMTIuMjc5MSAyNS4xMzMgMTIuMTExNSAyNC42MzExQzExLjk0NCAyNC4xMjkyIDExLjk4IDIzLjU4MTYgMTIuMjEyIDIzLjEwNkMxMi40NDg5IDIyLjYzMjIgMTIuODY0MiAyMi4yNzE3IDEzLjM2NjcgMjIuMTAzN0MxMy44NjkxIDIxLjkzNTcgMTQuNDE3NyAyMS45NzM5IDE0Ljg5MiAyMi4yMUMxNy42NjQgMjMuNTM2IDIwLjk2OCAyNCAyNCAyNEMyNy4wMzIgMjQgMzAuMzM2IDIzLjUzNiAzMy4xMDggMjIuMjFaIiBmaWxsPSIjRUI5NDQ3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTcuNTc3IDVDMTMuOTU4IDUgMTAuNjIxNSA2Ljk1NTI1IDguODUyNzQgMTAuMTEyNUwzLjI3NTc3IDIwLjA2NzRDMi40MzkyNyAyMS41NjA1IDIgMjMuMjQzNCAyIDI0Ljk1NDlWMzMuMDA4N0MyIDM0LjE3NDcgMi4zMzk3MSAzNS4zMTU0IDIuOTc3NiAzNi4yOTE0TDUuNTg2MjcgNDAuMjgyNkM2LjY5NDQxIDQxLjk3ODEgOC41ODMxNyA0MyAxMC42MDg3IDQzSDExLjcxMTFDMTQuNjkzNCA0MyAxNy4xMTExIDQwLjU4MjMgMTcuMTExMSAzNy42QzE3LjExMTEgMzYuODI2OCAxNy43Mzc5IDM2LjIgMTguNTExMSAzNi4ySDI5LjQ4ODlDMzAuMjYyMSAzNi4yIDMwLjg4ODkgMzYuODI2OCAzMC44ODg5IDM3LjZDMzAuODg4OSA0MC41ODIzIDMzLjMwNjYgNDMgMzYuMjg4OSA0M0gzNy4zOTEzQzM5LjQxNjggNDMgNDEuMzA1NiA0MS45NzgxIDQyLjQxMzcgNDAuMjgyNkw0NS4wMjI0IDM2LjI5MTRDNDUuNjYwMyAzNS4zMTU0IDQ2IDM0LjE3NDcgNDYgMzMuMDA4N1YyNC45NTQ5QzQ2IDIzLjI0MzQgNDUuNTYwNyAyMS41NjA1IDQ0LjcyNDIgMjAuMDY3NEwzOS4xNDczIDEwLjExMjVDMzcuMzc4NSA2Ljk1NTI1IDM0LjA0MiA1IDMwLjQyMyA1SDE3LjU3N1pNMTIuMzQyNCAxMi4wNjc1QzEzLjQwMzcgMTAuMTczMSAxNS40MDU2IDkgMTcuNTc3IDlIMzAuNDIzQzMyLjU5NDQgOSAzNC41OTYzIDEwLjE3MzEgMzUuNjU3NiAxMi4wNjc1TDQxLjIzNDUgMjIuMDIyNEM0MS43MzY0IDIyLjkxODMgNDIgMjMuOTI4IDQyIDI0Ljk1NDlWMzMuMDA4N0M0MiAzMy4zOTc0IDQxLjg4NjggMzMuNzc3NiA0MS42NzQxIDM0LjEwM0wzOS4wNjU1IDM4LjA5NDJDMzguNjk2MSAzOC42NTk0IDM4LjA2NjUgMzkgMzcuMzkxMyAzOUgzNi4yODg5QzM1LjUxNTcgMzkgMzQuODg4OSAzOC4zNzMyIDM0Ljg4ODkgMzcuNkMzNC44ODg5IDM0LjYxNzcgMzIuNDcxMiAzMi4yIDI5LjQ4ODkgMzIuMkgxOC41MTExQzE1LjUyODggMzIuMiAxMy4xMTExIDM0LjYxNzcgMTMuMTExMSAzNy42QzEzLjExMTEgMzguMzczMiAxMi40ODQzIDM5IDExLjcxMTEgMzlIMTAuNjA4N0M5LjkzMzUgMzkgOS4zMDM5MSAzOC42NTk0IDguOTM0NTMgMzguMDk0Mkw2LjMyNTg3IDM0LjEwM0M2LjExMzI0IDMzLjc3NzYgNiAzMy4zOTc0IDYgMzMuMDA4N1YyNC45NTQ5QzYgMjMuOTI4IDYuMjYzNTYgMjIuOTE4MyA2Ljc2NTQ2IDIyLjAyMjRMMTIuMzQyNCAxMi4wNjc1WiIgZmlsbD0iI0VCOTQ0NyIvPgo8L3N2Zz4K" />
+                       <h4 >Автомобили</h4>
+                     <div class="benefits__row"> 
+                       <a href="/">Битуах Хова</a>
+                       <a href="/">Битуах Цад</a>
+                       <a href="/">Гимель</a>
+                       <a href="/">Битуах Макиф</a>
+                       <a href="/">Label6</a>
+                       <a href="/">Label7</a>
+                       <a href="/">Label8</a>
+                     </div>   
+                  </div>
+
+                  <div class="benefits__card">
+                     <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zOS41NTYyIDguNDQzNzdDMzAuOTY1MiAtMC4xNDcyNzQgMTcuMDM0OCAtMC4xNDcyNzQgOC40NDM3NyA4LjQ0Mzc3Qy0wLjE0NzI3NCAxNy4wMzQ4IC0wLjE0NzI3NCAzMC45NjUyIDguNDQzNzcgMzkuNTU2MkMxNy4wMzQ4IDQ4LjE0NzIgMzAuOTY1MiA0OC4xNDcyIDM5LjU1NjIgMzkuNTU2MkM0OC4xNDcyIDMwLjk2NTIgNDguMTQ3MiAxNy4wMzQ4IDM5LjU1NjIgOC40NDM3N1pNMzUuMjM1OSA5LjkzNTY5QzI4LjY4NDUgNC42ODg3NiAxOS4zMTU1IDQuNjg4NzUgMTIuNzY0MSA5LjkzNTY3TDE1LjYxNTEgMTIuNzg2NkMyMC41NzA3IDkuMDcwNjggMjcuNDI5NCA5LjA3MDY3IDMyLjM4NDkgMTIuNzg2NkwzNS4yMzU5IDkuOTM1NjlaTTkuOTM1NyAxMi43NjQxQzQuNjg4NzUgMTkuMzE1NSA0LjY4ODc1IDI4LjY4NDUgOS45MzU2OSAzNS4yMzU5TDEyLjc4NjcgMzIuMzg0OEM5LjA3MDggMjcuNDI5MyA5LjA3MDggMjAuNTcwNiAxMi43ODY3IDE1LjYxNTFMOS45MzU3IDEyLjc2NDFaTTEyLjc2NDEgMzguMDY0M0MxOS4zMTU1IDQzLjMxMTIgMjguNjg0NSA0My4zMTEyIDM1LjIzNTkgMzguMDY0M0wzMi4zODQ5IDM1LjIxMzJDMjcuNDI5NCAzOC45MjkxIDIwLjU3MDcgMzguOTI5MSAxNS42MTUyIDM1LjIxMzJMMTIuNzY0MSAzOC4wNjQzWk0zOC4wNjQzIDM1LjIzNThDNDMuMzExMiAyOC42ODQ1IDQzLjMxMTIgMTkuMzE1NSAzOC4wNjQzIDEyLjc2NDFMMzUuMjEzMyAxNS42MTVDMzguOTI5MyAyMC41NzA2IDM4LjkyOTMgMjcuNDI5MyAzNS4yMTMzIDMyLjM4NDhMMzguMDY0MyAzNS4yMzU4Wk0xNi45Mjk0IDE2LjkyOUMyMC44MzQzIDEzLjAyMzIgMjcuMTY1OCAxMy4wMjMyIDMxLjA3MDcgMTYuOTI5QzM0Ljk3NjQgMjAuODMzOSAzNC45NzY3IDI3LjE2NTYgMzEuMDcxIDMxLjA3MDVDMjcuMTY2MSAzNC45NzYzIDIwLjgzNDMgMzQuOTc2NiAxNi45Mjk0IDMxLjA3MDhDMTMuMDIzNiAyNy4xNjU5IDEzLjAyMzYgMjAuODMzOSAxNi45Mjk0IDE2LjkyOVoiIGZpbGw9IiNFQjk0NDciLz4KPC9zdmc+Cg==" />
+                       <h4 >Жизнь</h4>
+                     <div class="benefits__row">
+                       <a href="/">Label1</a>
+                       <a href="/">Label2</a>
+                       <a href="/">Label3</a>
+                       <a href="/">Label4</a>
+                       <a href="/">Label5</a>
+                       <a href="/">Label6</a>
+                       <a href="/">Label7</a>
+                       <a href="/">Label8</a>
+                     </div>
+                  </div>
+
+                  <div class="benefits__card">
+                       <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM1Ljk5OTkgMTNDMzUuOTk5OSAxMS44OTU0IDM1LjEwNDQgMTEgMzMuOTk5OSAxMUMzMi44OTUzIDExIDMxLjk5OTkgMTEuODk1NCAzMS45OTk5IDEzVjE1SDI5Ljk5OTlDMjguODk1MyAxNSAyNy45OTk5IDE1Ljg5NTQgMjcuOTk5OSAxN0MyNy45OTk5IDE4LjEwNDYgMjguODk1MyAxOSAyOS45OTk5IDE5SDMxLjk5OTlWMjFDMzEuOTk5OSAyMi4xMDQ2IDMyLjg5NTMgMjMgMzMuOTk5OSAyM0MzNS4xMDQ0IDIzIDM1Ljk5OTkgMjIuMTA0NiAzNS45OTk5IDIxVjE5SDM3Ljk5OTlDMzkuMTA0NCAxOSAzOS45OTk5IDE4LjEwNDYgMzkuOTk5OSAxN0MzOS45OTk5IDE1Ljg5NTQgMzkuMTA0NCAxNSAzNy45OTk5IDE1SDM1Ljk5OTlWMTNaIiBmaWxsPSIjRUI5NDQ3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTkuNjU3MyA1LjcxODY2QzIxLjM5NTYgNi42MjYxNiAyMi45MjQzIDcuNzQ1MzkgMjMuOTk5OSA4LjY3MjEzQzI1LjA3NTUgNy43NDUzOSAyNi42MDQyIDYuNjI2MTYgMjguMzQyNCA1LjcxODY2QzMwLjI2MjkgNC43MTU5OCAzMi42NTQ0IDMuODU4NDIgMzUuMDY2OCA0LjAyMTc5QzQwLjkyMTEgNC40MTgyNCA0NS4yNTA1IDguOTU4MzYgNDYuNTY4NyAxNC40ODA0QzQ3LjkwNyAyMC4wODY1IDQ2LjIyNTEgMjYuNzk4MSA0MC4yMTgzIDMyLjAxNTdMNDAuMjA1IDMyLjAyNzNMMjguNDk2NSA0MS44NDA4QzI1Ljg5NTIgNDQuMDIxMSAyMi4xMDQ3IDQ0LjAyMTEgMTkuNTAzNCA0MS44NDA5TDcuNzk0NjkgMzIuMDI3M0w3Ljc4MTM4IDMyLjAxNTdDMS43NzQ2MSAyNi43OTgxIDAuMDkyNzUxNiAyMC4wODY1IDEuNDMxIDE0LjQ4MDRDMi43NDkxOCA4Ljk1ODM2IDcuMDc4NjIgNC40MTgyNCAxMi45MzI5IDQuMDIxNzlDMTUuMzQ1MyAzLjg1ODQyIDE3LjczNjggNC43MTU5OCAxOS42NTczIDUuNzE4NjZaTTEzLjIwMzIgOC4wMTI2NUMxNC41NTcyIDcuOTIwOTYgMTYuMTczNiA4LjQxMjIgMTcuODA2MSA5LjI2NDQ5QzE5LjQwNyAxMC4xMDAzIDIwLjgxNzIgMTEuMTc1MyAyMS42ODQ5IDExLjk2NDNDMjIuMzc0OCAxMi41OTE1IDIzLjI0MzYgMTIuODMxOCAyMy45OTk5IDEyLjgzMThDMjQuNzU2MSAxMi44MzE4IDI1LjYyNDkgMTIuNTkxNSAyNi4zMTQ4IDExLjk2NDNDMjcuMTgyNSAxMS4xNzUzIDI4LjU5MjcgMTAuMTAwMyAzMC4xOTM2IDkuMjY0NDlDMzEuODI2MSA4LjQxMjIgMzMuNDQyNiA3LjkyMDk2IDM0Ljc5NjUgOC4wMTI2NUMzOC41NTQ5IDguMjY3MTYgNDEuNjc4OSAxMS4yMjM2IDQyLjY3OCAxNS40MDkyQzQzLjY1NjMgMTkuNTA3MSA0Mi41MjIyIDI0LjcwODcgMzcuNjA4MyAyOC45ODQ2TDI1LjkyNyAzOC43NzUyQzI0LjgxMjIgMzkuNzA5NiAyMy4xODc3IDM5LjcwOTYgMjIuMDcyOSAzOC43NzUyTDEwLjM5MTUgMjguOTg0NkM1LjQ3NzQ5IDI0LjcwODggNC4zNDM0NSAxOS41MDcxIDUuMzIxNjggMTUuNDA5MkM2LjMyMDg0IDExLjIyMzYgOS40NDQ4MyA4LjI2NzE2IDEzLjIwMzIgOC4wMTI2NVoiIGZpbGw9IiNFQjk0NDciLz4KPC9zdmc+Cg==" />
+                       <h4>Здоровье</h4>
+                     <div class="benefits__row">
+                        <a href="/">Label1</a>
+                        <a href="/">Label2</a>
+                        <a href="/">Label3</a>
+                        <a href="/">Label4</a>
+                        <a href="/">Label5</a>
+                        <a href="/">Label6</a>
+                        <a href="/">Label7</a>
+                        <a href="/">Label8</a>
+                     </div>
+                  </div>
+
+                  <div class="benefits__card">
+                       <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi42MjA3IDIuNTUxODVDMjMuMzkzMSAxLjgxNjIxIDI0LjYwNjkgMS44MTYyMSAyNS4zNzkzIDIuNTUxODVMNDYuMzc5MyAyMi41NTE4QzQ3LjE3OTIgMjMuMzEzNiA0Ny4yMTAxIDI0LjU3OTYgNDYuNDQ4MyAyNS4zNzk0QzQ1LjY4NjUgMjYuMTc5MyA0NC40MjA2IDI2LjIxMDIgNDMuNjIwNyAyNS40NDg0TDI0IDYuNzYyMDNMNC4zNzkzMSAyNS40NDg0QzMuNTc5NDUgMjYuMjEwMiAyLjMxMzUgMjYuMTc5MyAxLjU1MTczIDI1LjM3OTRDMC43ODk5NTYgMjQuNTc5NiAwLjgyMDgzMyAyMy4zMTM2IDEuNjIwNjkgMjIuNTUxOEwyMi42MjA3IDIuNTUxODVaTTggMjguMDAwMUM5LjEwNDU3IDI4LjAwMDEgMTAgMjguODk1NSAxMCAzMC4wMDAxTDEwIDM5LjQyODZDMTAgNDAuMTEwNiAxMC4yNzA5IDQwLjc2NDYgMTAuNzUzMiA0MS4yNDY5QzExLjIzNTQgNDEuNzI5MSAxMS44ODk1IDQyIDEyLjU3MTUgNDJIMTdWMzguMDAwMUMxNyAzNC4xMzQxIDIwLjEzNCAzMS4wMDAxIDI0IDMxLjAwMDFDMjcuODY2IDMxLjAwMDEgMzEgMzQuMTM0MSAzMSAzOC4wMDAxVjQySDM1LjQyODZDMzYuMTEwNiA0MiAzNi43NjQ2IDQxLjcyOTEgMzcuMjQ2OSA0MS4yNDY5QzM3LjcyOTEgNDAuNzY0NiAzOCA0MC4xMTA2IDM4IDM5LjQyODZWMzAuMDAwMUMzOCAyOC44OTU2IDM4Ljg5NTUgMjguMDAwMSA0MCAyOC4wMDAxQzQxLjEwNDYgMjguMDAwMSA0MiAyOC44OTU2IDQyIDMwLjAwMDFWMzkuNDI4NkM0MiA0MS4xNzE0IDQxLjMwNzcgNDIuODQyOSA0MC4wNzUzIDQ0LjA3NTNDMzguODQyOSA0NS4zMDc3IDM3LjE3MTQgNDYgMzUuNDI4NiA0NkgxMi41NzE1QzEwLjgyODYgNDYgOS4xNTcxMyA0NS4zMDc3IDcuOTI0NzUgNDQuMDc1M0M2LjY5MjM2IDQyLjg0MjkgNi4wMDAwMiA0MS4xNzE0IDYuMDAwMDIgMzkuNDI4Nkw2IDMwLjAwMDFDNiAyOC44OTU2IDYuODk1NDMgMjguMDAwMSA4IDI4LjAwMDFaTTI3IDQyVjM4LjAwMDFDMjcgMzYuMzQzMyAyNS42NTY5IDM1LjAwMDEgMjQgMzUuMDAwMUMyMi4zNDMxIDM1LjAwMDEgMjEgMzYuMzQzMyAyMSAzOC4wMDAxVjQySDI3WiIgZmlsbD0iI0VCOTQ0NyIvPgo8L3N2Zz4K" />
+                       <h4>Имущество</h4>
+                     <div class="benefits__row">
+                       <a href="/">Страхование машканты</a>
+                       <a href="/">Битуах Миивне</a>
+                       <a href="/">Битуах Тхула</a>
+                       <a href="/">Label4</a>
+                       <a href="/">Label5</a>
+                       <a href="/">Label6</a>
+                       <a href="/">Label7</a>
+                       <a href="/">Label8</a>
+                     </div>
+                  </div>
+
+                  <div class="benefits__card">
+                       <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzcxOF8zMjk3KSI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDcuOTg0MiAyMy4xMjIxQzQ3LjUyMjIgMTAuMjczOSAzNi45NjA5IDAgMjQgMEMxMC43NDUyIDAgMCAxMC43NDUyIDAgMjRDMCAzNy4yNTQ4IDEwLjc0NTIgNDggMjQgNDhDMzcuMjU0OCA0OCA0OCAzNy4yNTQ4IDQ4IDI0QzQ4IDIzLjgzOTIgNDcuOTk4NCAyMy42Nzg3IDQ3Ljk5NTMgMjMuNTE4N0M0OC4wMDQ4IDIzLjM4NTcgNDguMDAxIDIzLjI1MjggNDcuOTg0MiAyMy4xMjIxWk00IDI0QzQgMTIuOTU0MyAxMi45NTQzIDQgMjQgNEMyNC41MTE0IDQgMjUuMDE4MyA0LjAxOTE5IDI1LjUyIDQuMDU2OVY5LjM2MTA0QzI1LjUyIDEwLjQwMSAyNS4xMDg4IDExLjM5NjMgMjQuMzgwMSAxMi4xMjg3QzIzLjY1MTcgMTIuODYwNyAyMi42NjU4IDEzLjI3MDEgMjEuNjQgMTMuMjcwMUMxOS41NDY5IDEzLjI3MDEgMTcuNTQxNSAxNC4xMDU4IDE2LjA2NDUgMTUuNTkwMUMxNC41ODc4IDE3LjA3NDEgMTMuNzYgMTkuMDg0OCAxMy43NiAyMS4xNzkyVjI2LjI0NDJDMTMuNzYgMjcuMjg0MSAxMy4zNDg4IDI4LjI3OTUgMTIuNjIwMSAyOS4wMTE4QzExLjg5MTcgMjkuNzQzOCAxMC45MDU4IDMwLjE1MzIgOS44OCAzMC4xNTMySDQuOTY0NDJDNC4zMzgyNyAyOC4yMTQ4IDQgMjYuMTQ2OSA0IDI0Wk02Ljc2NTIgMzQuMTUzMkMxMC4yNDQ2IDQwLjA0NjYgMTYuNjYwNiA0NCAyNCA0NEMyOC4zMjQ1IDQ0IDMyLjMyODUgNDIuNjI3NSAzNS42IDQwLjI5NDNWMzguMDYyM0MzNS42IDM3LjQ3MDIgMzUuMzY1OCAzNi45MDQyIDM0Ljk1MjEgMzYuNDg4NUMzNC41Mzg4IDM2LjA3MzEgMzMuOTgwMyAzNS44NDE2IDMzLjQgMzUuODQxNkMzMS4zMDY5IDM1Ljg0MTYgMjkuMzAxNSAzNS4wMDU5IDI3LjgyNDUgMzMuNTIxNUMyNi4zNDc4IDMyLjAzNzYgMjUuNTIgMzAuMDI2OSAyNS41MiAyNy45MzI1QzI1LjUyIDI1LjgzOCAyNi4zNDc4IDIzLjgyNzQgMjcuODI0NSAyMi4zNDM0QzI5LjMwMTUgMjAuODU5MSAzMS4zMDY5IDIwLjAyMzQgMzMuNCAyMC4wMjM0SDQwLjU2NzlDNDEuNjE4IDIwLjAyOTIgNDIuNjYwMyAyMC4xNTQgNDMuNjc1NiAyMC4zOTI4QzQyLjMwODYgMTIuODg4IDM2Ljc1MzMgNi44NDQxNSAyOS41MiA0Ljc3MTQ4VjkuMzYxMDRDMjkuNTIgMTEuNDU1NSAyOC42OTIyIDEzLjQ2NjEgMjcuMjE1NSAxNC45NTAxQzI1LjczODUgMTYuNDM0NCAyMy43MzMxIDE3LjI3MDEgMjEuNjQgMTcuMjcwMUMyMC42MTQyIDE3LjI3MDEgMTkuNjI4MyAxNy42Nzk2IDE4Ljg5OTkgMTguNDExNkMxOC4xNzEyIDE5LjE0MzkgMTcuNzYgMjAuMTM5MyAxNy43NiAyMS4xNzkyVjI2LjI0NDJDMTcuNzYgMjguMzM4NiAxNi45MzIyIDMwLjM0OTIgMTUuNDU1NSAzMS44MzMyQzEzLjk3ODUgMzMuMzE3NiAxMS45NzMxIDM0LjE1MzIgOS44OCAzNC4xNTMySDYuNzY1MlpNNDMuOTg5MyAyNC42NjE1QzQyLjg5MjMgMjQuMjQ3NiA0MS43Mjg0IDI0LjAzMDUgNDAuNTUxIDI0LjAyMzRIMzMuNEMzMi4zNzQyIDI0LjAyMzQgMzEuMzg4MyAyNC40MzI4IDMwLjY1OTkgMjUuMTY0OEMyOS45MzEyIDI1Ljg5NzIgMjkuNTIgMjYuODkyNSAyOS41MiAyNy45MzI1QzI5LjUyIDI4Ljk3MjQgMjkuOTMxMiAyOS45Njc4IDMwLjY1OTkgMzAuNzAwMUMzMS4zODgzIDMxLjQzMjEgMzIuMzc0MiAzMS44NDE2IDMzLjQgMzEuODQxNkMzNS4wNDc1IDMxLjg0MTYgMzYuNjI1NiAzMi40OTk0IDM3Ljc4NzUgMzMuNjY3MUMzOC42MjM3IDM0LjUwNzQgMzkuMTk1MiAzNS41NjIyIDM5LjQ0OTggMzYuNzAxNEM0Mi4xNjI0IDMzLjQwNTcgNDMuODQwOSAyOS4yMjcgNDMuOTg5MyAyNC42NjE1WiIgZmlsbD0iI0VCOTQ0NyIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzcxOF8zMjk3Ij4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=" />
+                       <h4>Путешествия</h4>
+                     <div class="benefits__row">
+                       <a href="/">Туристическая страховка в Израиле</a>
+                       <a href="/">Страховка путешествия заграницу</a>
+                       <a href="/">Label6</a>
+                       <a href="/">Label7</a>
+                       <a href="/">Label8</a>
+                     </div>
+                  </div>
+
+                  <div class="benefits__card">
+                       <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDE0QzEwLjg5NTQgMTQgMTAgMTQuODk1NCAxMCAxNkMxMCAxNy4xMDQ2IDEwLjg5NTQgMTggMTIgMThIMjBDMjEuMTA0NiAxOCAyMiAxNy4xMDQ2IDIyIDE2QzIyIDE0Ljg5NTQgMjEuMTA0NiAxNCAyMCAxNEgxMloiIGZpbGw9IiNFQjk0NDciLz4KPHBhdGggZD0iTTM1Ljk4MjEgMjJDMzQuODc3NSAyMiAzMy45ODIxIDIyLjg5NTQgMzMuOTgyMSAyNEMzMy45ODIxIDI1LjEwNDYgMzQuODc3NSAyNiAzNS45ODIxIDI2SDM2LjAwMjFDMzcuMTA2NiAyNiAzOC4wMDIxIDI1LjEwNDYgMzguMDAyMSAyNEMzOC4wMDIxIDIyLjg5NTQgMzcuMTA2NiAyMiAzNi4wMDIxIDIySDM1Ljk4MjFaIiBmaWxsPSIjRUI5NDQ3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDMuOTU4MSAzMS45NTg3QzQzLjk3MjcgMzEuNzkxOCA0My45ODIzIDMxLjYxNjggNDMuOTg4NSAzMS40MjQ5QzQ1LjA4ODggMzAuNzg4NyA0NS44OTM1IDI5LjY2NjYgNDUuOTkxMSAyOC4yNjk0TDQ1Ljk5MTYgMjguMjYyMUw0NS45OTIxIDI4LjI1NDhDNDYuMDAwMiAyOC4xMjUzIDQ2LjAwMDEgMjcuOTg0NyA0NiAyNy44Njc3VjIwLjEzMjNDNDYuMDAwMSAyMC4wMTU0IDQ2LjAwMDIgMTkuODc0OCA0NS45OTIxIDE5Ljc0NTNMNDUuOTkxNSAxOS43MzZMNDUuOTkwOSAxOS43MjY3QzQ1Ljg5MDcgMTguMzMzNCA0NS4wODgyIDE3LjIxMTYgNDMuOTg4NSAxNi41NzUzQzQzLjk4MjMgMTYuMzgzMyA0My45NzI4IDE2LjIwODMgNDMuOTU4MSAxNi4wNDEzQzQzLjQ5MjkgMTAuNzIzNCAzOS4yNzY2IDYuNTA3MTMgMzMuOTU4NyA2LjA0MTg3QzMzLjQ3ODggNS45OTk4OCAzMi45MzMgNS45OTk5MyAzMi4xMDcxIDYuMDAwMDFMMTkuODg2NiA2LjAwMDAxQzE2LjcwMzYgNS45OTk5OCAxNC4xNTY4IDUuOTk5OTYgMTIuMTIxNSA2LjIxNDQ5QzEwLjAyNjYgNi40MzUzMSA4LjI0NDUzIDYuOTAxMzEgNi42OTA2NiA3Ljk4OTM0QzUuNjM5NTUgOC43MjUzMyA0LjcyNTMyIDkuNjM5NTYgMy45ODkzMyAxMC42OTA3QzIuOTAxMyAxMi4yNDQ1IDIuNDM1MyAxNC4wMjY2IDIuMjE0NDcgMTYuMTIxNUMxLjk5OTk1IDE4LjE1NjggMS45OTk5NyAyMC43MDM2IDIgMjMuODg2NlYyNC4xMTM1QzEuOTk5OTcgMjcuMjk2NCAxLjk5OTk1IDI5Ljg0MzMgMi4yMTQ0NyAzMS44Nzg1QzIuNDM1MyAzMy45NzM1IDIuOTAxMyAzNS43NTU1IDMuOTg5MzMgMzcuMzA5NEM0LjcyNTMyIDM4LjM2MDUgNS42Mzk1NSAzOS4yNzQ3IDYuNjkwNjYgNDAuMDEwN0M4LjI0NDUzIDQxLjA5ODcgMTAuMDI2NiA0MS41NjQ3IDEyLjEyMTUgNDEuNzg1NUMxNC4xNTY3IDQyLjAwMDEgMTYuNzAzNiA0MiAxOS44ODY1IDQyTDMyLjEwNzEgNDJDMzIuOTMzIDQyLjAwMDEgMzMuNDc4OCA0Mi4wMDAxIDMzLjk1ODcgNDEuOTU4MkMzOS4yNzY2IDQxLjQ5MjkgNDMuNDkyOSAzNy4yNzY2IDQzLjk1ODEgMzEuOTU4N1pNMzMuNjEwMSAxMC4wMjY2QzMzLjMyNzYgMTAuMDAxOSAzMi45NzA5IDEwIDMyIDEwSDIwQzE2LjY3NzUgMTAgMTQuMzQxOCAxMC4wMDI2IDEyLjU0MDggMTAuMTkyNEMxMC43NzU0IDEwLjM3ODUgOS43NTU1OSAxMC43MjY0IDguOTg0OTcgMTEuMjY1OUM4LjMxNjA4IDExLjczNDMgNy43MzQzIDEyLjMxNjEgNy4yNjU5NCAxMi45ODVDNi43MjYzNCAxMy43NTU2IDYuMzc4NTIgMTQuNzc1NCA2LjE5MjQ0IDE2LjU0MDhDNi4wMDI2IDE4LjM0MTggNiAyMC42Nzc1IDYgMjRDNiAyNy4zMjI1IDYuMDAyNiAyOS42NTgyIDYuMTkyNDQgMzEuNDU5MkM2LjM3ODUyIDMzLjIyNDYgNi43MjYzNCAzNC4yNDQ0IDcuMjY1OTQgMzUuMDE1QzcuNzM0MyAzNS42ODM5IDguMzE2MDggMzYuMjY1NyA4Ljk4NDk3IDM2LjczNDFDOS43NTU1OSAzNy4yNzM3IDEwLjc3NTQgMzcuNjIxNSAxMi41NDA4IDM3LjgwNzZDMTQuMzQxOCAzNy45OTc0IDE2LjY3NzUgMzggMjAgMzhIMzJDMzIuOTcwOSAzOCAzMy4zMjc2IDM3Ljk5ODEgMzMuNjEwMSAzNy45NzM0QzM2Ljg2MzIgMzcuNjg4OCAzOS40Njg0IDM1LjE5ODUgMzkuOTI4MyAzMkgzNi40NkMzMS45MzE2IDMyIDI4IDI4LjU1NTYgMjggMjRDMjggMTkuNDQ0NSAzMS45Mjk2IDE2IDM2LjQ2MiAxNkgzOS45MjgzQzM5LjQ2ODQgMTIuODAxNiAzNi44NjMyIDEwLjMxMTMgMzMuNjEwMSAxMC4wMjY2Wk00MS42NjYgMjBDNDEuNzU0IDIwIDQxLjgwNTQgMjAuMDAwMSA0MS44NDM3IDIwLjAwMDRMNDEuODcxNiAyMC4wMDA4QzQxLjkzNzYgMjAuMDA2MyA0MS45NzkxIDIwLjAyODcgNDEuOTk5OSAyMC4wNDQ3TDQyIDIwLjE2NlYyNy44MzRMNDEuOTk5OSAyNy45NTU5QzQxLjk3ODUgMjcuOTcxOSA0MS45MzY5IDI3Ljk5MzcgNDEuODcxOSAyNy45OTkyTDQxLjg0MjkgMjcuOTk5NkM0MS44MDQ5IDI4IDQxLjc1NCAyOCA0MS42NjYgMjhIMzYuNDZDMzMuODU2NCAyOCAzMiAyNi4wNzI1IDMyIDI0QzMyIDIxLjkyNzYgMzMuODU0NCAyMCAzNi40NjIgMjBINDEuNjY2WiIgZmlsbD0iI0VCOTQ0NyIvPgo8L3N2Zz4K" />
+                       <h4>Финансы</h4>
+                     <div class="benefits__row">
+                       <a href="">Пенсионный фонд</a>
+                       <a href="/">Потеря трудоспособности</a>
+                       <a href="/">Страхование тяжелых заболеваний и аварий</a>
+                       <a href="/">Керен Иштальмут</a>
+                       <a href="/">Купат гимель</a>
+                       <a href="/">Машканта</a>
+                       <a href="/">Инвестиции</a>
+                       <a href="/">Уменьшение страховых выплат</a>
+                     </div>  
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   
+
+   
+      <div class="container">
+         <section class="stock">
+            <h2>Акции и спецпредложения</h2>
+            <div class="stock__cards">
+               <div class="stock__promo">
+                  <h4>Супер Кэшбэк</h4>
+                  <p>Получайте кэшбэк 10% от стоимости полиса реальными деньгами и может даже еще что-то, но мы не знаем этого, потом что это всё вымысел.</p>
+                  <div class="btn"><a href="/">Получить</a></div>
+               </div>
+               <div class="stock__promo promo">
+                  <h4>Программа лояльности «Capital Insurance»</h4>
+                  <p>Получите инвалидное кресло. Просто, ну, как бы, а почему бы и нет. Оно так-то денег стоит, да и вообще весьма удобно. Можно использовать как автомобиль. Кресло тоже можно застраховать.</p>
+                  <div class="btn btn--green"><a href="/">Получить</a></div>
+               </div>
+            </div>
+            <form class="click">
+               <button><a href="/">Все акции </a></button>
+               <input type="text" required placeholder="Все акции">
+            </form>
+         </section>
+      </div>
+  
+
+   
+      <div class="container">
+        <section class="advantage">
+            <h2>Почему выбирают нас?</h2>
+            <div class="advantage__row">
+               <div class="advantage__cards">
+                  <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNS4wMzM0IDUuNTA5NTRDMjQuMzY2MiA1LjI2NDcyIDIzLjYzMzggNS4yNjQ3MiAyMi45NjY2IDUuNTA5NTRMOC45NjY1OCAxMC42NDY2QzcuNzg1MjcgMTEuMDggNyAxMi4yMDQ2IDcgMTMuNDYyOVYyNC4yMTVDNyAyNC4yMTUgNyAyNC4yMTUxIDcgMjQuMjE1QzcuMDAwMDcgMjcuMTgwOSA3LjgxNDg2IDMwLjA5NDkgOS4zNjI3NiAzMi42NTI0QzEwLjkwNzcgMzUuMjA1MSAxMy4xMjc4IDM3LjMxMDkgMTUuNzk1NSAzOC43NDU2TDE2LjM5OTcgMzkuMDU1TDIyLjY4MTYgNDIuMTI4NEMyMy41MTM0IDQyLjUzNTQgMjQuNDg2NiA0Mi41MzU0IDI1LjMxODQgNDIuMTI4NEwzMS42MTY4IDM5LjA0N0MzNC4zNDY2IDM3LjcxMTcgMzYuNjUzNyAzNS42ODU2IDM4LjMwMDMgMzMuMTg1N0MzOS45NDMxIDMwLjY5MTQgNDAuODY5NiAyNy44MTU0IDQwLjk4NzIgMjQuODU3N0w0MSAyNC4xOTU3VjEzLjQ2M0M0MSAxMi4yMDQ2IDQwLjIxNDcgMTEuMDggMzkuMDMzNCAxMC42NDY2TDI1LjAzMzQgNS41MDk1NFpNMjEuNTg4NyAxLjc1NDM1QzIzLjE0NTUgMS4xODMxMiAyNC44NTQ1IDEuMTgzMTIgMjYuNDExMyAxLjc1NDM1TDQwLjQxMTMgNi44OTEzN0M0My4xNjc3IDcuOTAyNzggNDUgMTAuNTI2OSA0NSAxMy40NjNWMjQuMjM0NEw0NC45ODU3IDI0Ljk3NDJMNDQuOTg0OSAyNC45OTM0QzQ0Ljg0MjIgMjguNjkxNyA0My42ODU3IDMyLjI4MTIgNDEuNjQwNyAzNS4zODU5QzM5LjU5NjEgMzguNDkwMiAzNi43Mzk2IDQwLjk5NCAzMy4zNzQ2IDQyLjY0QzMzLjM3NDYgNDIuNjQwMSAzMy4zNzQ3IDQyLjY0IDMzLjM3NDYgNDIuNjRMMjcuMDc2MyA0NS43MjE1QzI1LjEzNTMgNDYuNjcxIDIyLjg2NDcgNDYuNjcxIDIwLjkyMzcgNDUuNzIxNUwxNC42MDg5IDQyLjYzMkwxMy45Mzc4IDQyLjI4ODNMMTMuOTIxIDQyLjI3OTNDMTAuNjIyIDQwLjUwOTYgNy44NjQxNyAzNy45MDE2IDUuOTQwNzIgMzQuNzIzNkM0LjAxNzA0IDMxLjU0NTIgMy4wMDAwOCAyNy45MTU2IDMgMjQuMjE1MVYxMy40NjI5QzMgMTAuNTI2OSA0LjgzMjI5IDcuOTAyNzggNy41ODg2OSA2Ljg5MTM4TDIxLjU4ODcgMS43NTQzNVpNMzAuODk0NCAxNi4yMTExQzMxLjg4MjQgMTYuNzA1MSAzMi4yODI4IDE3LjkwNjQgMzEuNzg4OSAxOC44OTQ0TDI2LjQwOTMgMjkuNjUzNEMyNS40OTQyIDMxLjQ4MzcgMjMuMDUzOSAzMS44ODIzIDIxLjYwNSAzMC40MzM0TDE3LjU4NTggMjYuNDE0MkMxNi44MDQ3IDI1LjYzMzEgMTYuODA0NyAyNC4zNjY4IDE3LjU4NTggMjMuNTg1N0MxOC4zNjY4IDIyLjgwNDcgMTkuNjMzMiAyMi44MDQ3IDIwLjQxNDIgMjMuNTg1N0wyMy40NTIxIDI2LjYyMzZMMjguMjExMSAxNy4xMDU1QzI4LjcwNTEgMTYuMTE3NiAyOS45MDY1IDE1LjcxNzEgMzAuODk0NCAxNi4yMTExWiIgZmlsbD0iI0VCOTQ0NyIvPgo8L3N2Zz4K" />
+                  <h4>Мы надёжны</h4>
+                  <p>Убедитесь сами</p>
+               </div>
+
+               <div class="advantage__cards">
+                  <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNSA4QzEzLjM0MzEgOCAxMiA5LjM0MzE1IDEyIDExQzEyIDEyLjY1NjkgMTMuMzQzMSAxNCAxNSAxNEMxNi42NTY5IDE0IDE4IDEyLjY1NjkgMTggMTFDMTggOS4zNDMxNSAxNi42NTY5IDggMTUgOFpNOCAxMUM4IDcuMTM0MDEgMTEuMTM0IDQgMTUgNEMxOC44NjYgNCAyMiA3LjEzNDAxIDIyIDExQzIyIDEyLjg5MDcgMjEuMjUwNCAxNC42MDY0IDIwLjAzMjIgMTUuODY1OUMyMC45MTc3IDE2LjE5MTYgMjEuNzM5MiAxNi42MDM4IDIyLjQ3MzQgMTcuMDkzM0MyMy4wMjQzIDE3LjQ2MDYgMjMuNTQxIDE3Ljg4MzcgMjQgMTguMzU3NEMyNC40NTkgMTcuODgzNyAyNC45NzU3IDE3LjQ2MDYgMjUuNTI2NiAxNy4wOTMzQzI2LjI2MDggMTYuNjAzOCAyNy4wODIzIDE2LjE5MTYgMjcuOTY3OCAxNS44NjU5QzI2Ljc0OTYgMTQuNjA2NCAyNiAxMi44OTA3IDI2IDExQzI2IDcuMTM0MDEgMjkuMTM0IDQgMzMgNEMzNi44NjYgNCA0MCA3LjEzNDAxIDQwIDExQzQwIDEyLjg5MDcgMzkuMjUwNCAxNC42MDY0IDM4LjAzMjIgMTUuODY1OUMzOC45MTc3IDE2LjE5MTYgMzkuNzM5MiAxNi42MDM4IDQwLjQ3MzQgMTcuMDkzM0M0Mi40NTk2IDE4LjQxNzQgNDQgMjAuNDY2NCA0NCAyM0M0NCAyNC4xMDQ2IDQzLjEwNDYgMjUgNDIgMjVDNDAuODk1NCAyNSA0MCAyNC4xMDQ2IDQwIDIzQzQwIDIyLjIxOTkgMzkuNTI1NyAyMS4yNjg5IDM4LjI1NDYgMjAuNDIxNUMzNi45OTc0IDE5LjU4MzQgMzUuMTQ1NSAxOSAzMyAxOUMzMC44NTQ1IDE5IDI5LjAwMjYgMTkuNTgzNCAyNy43NDU0IDIwLjQyMTVDMjYuNDc0MyAyMS4yNjg5IDI2IDIyLjIxOTkgMjYgMjNDMjYgMjQuMTA0NiAyNS4xMDQ2IDI1IDI0IDI1QzIyLjg5NTQgMjUgMjIgMjQuMTA0NiAyMiAyM0MyMiAyMi4yMTk5IDIxLjUyNTcgMjEuMjY4OSAyMC4yNTQ2IDIwLjQyMTVDMTguOTk3NCAxOS41ODM0IDE3LjE0NTUgMTkgMTUgMTlDMTIuODU0NSAxOSAxMS4wMDI2IDE5LjU4MzQgOS43NDU0NCAyMC40MjE1QzguNDc0MzMgMjEuMjY4OSA4IDIyLjIxOTkgOCAyM0M4IDI0LjEwNDYgNy4xMDQ1NyAyNSA2IDI1QzQuODk1NDMgMjUgNCAyNC4xMDQ2IDQgMjNDNCAyMC40NjY0IDUuNTQwMzkgMTguNDE3NCA3LjUyNjY0IDE3LjA5MzNDOC4yNjA4NSAxNi42MDM4IDkuMDgyMzQgMTYuMTkxNiA5Ljk2NzgzIDE1Ljg2NTlDOC43NDk2IDE0LjYwNjQgOCAxMi44OTA3IDggMTFaTTMzIDhDMzEuMzQzMSA4IDMwIDkuMzQzMTUgMzAgMTFDMzAgMTIuNjU2OSAzMS4zNDMxIDE0IDMzIDE0QzM0LjY1NjkgMTQgMzYgMTIuNjU2OSAzNiAxMUMzNiA5LjM0MzE1IDM0LjY1NjkgOCAzMyA4WiIgZmlsbD0iI0VCOTQ0NyIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1IDI5QzEzLjM0MzEgMjkgMTIgMzAuMzQzMSAxMiAzMkMxMiAzMy42NTY5IDEzLjM0MzEgMzUgMTUgMzVDMTYuNjU2OSAzNSAxOCAzMy42NTY5IDE4IDMyQzE4IDMwLjM0MzEgMTYuNjU2OSAyOSAxNSAyOVpNOCAzMkM4IDI4LjEzNCAxMS4xMzQgMjUgMTUgMjVDMTguODY2IDI1IDIyIDI4LjEzNCAyMiAzMkMyMiAzMy44OTA3IDIxLjI1MDQgMzUuNjA2NCAyMC4wMzIyIDM2Ljg2NTlDMjAuOTE3NyAzNy4xOTE2IDIxLjczOTIgMzcuNjAzOCAyMi40NzM0IDM4LjA5MzNDMjMuMDI0MyAzOC40NjA2IDIzLjU0MSAzOC44ODM3IDI0IDM5LjM1NzRDMjQuNDU5IDM4Ljg4MzcgMjQuOTc1NyAzOC40NjA2IDI1LjUyNjYgMzguMDkzM0MyNi4yNjA4IDM3LjYwMzggMjcuMDgyMyAzNy4xOTE2IDI3Ljk2NzggMzYuODY1OUMyNi43NDk2IDM1LjYwNjQgMjYgMzMuODkwNyAyNiAzMkMyNiAyOC4xMzQgMjkuMTM0IDI1IDMzIDI1QzM2Ljg2NiAyNSA0MCAyOC4xMzQgNDAgMzJDNDAgMzMuODkwNyAzOS4yNTA0IDM1LjYwNjQgMzguMDMyMiAzNi44NjU5QzM4LjkxNzcgMzcuMTkxNiAzOS43MzkyIDM3LjYwMzggNDAuNDczNCAzOC4wOTMzQzQyLjQ1OTYgMzkuNDE3NCA0NCA0MS40NjY0IDQ0IDQ0QzQ0IDQ1LjEwNDYgNDMuMTA0NiA0NiA0MiA0NkM0MC44OTU0IDQ2IDQwIDQ1LjEwNDYgNDAgNDRDNDAgNDMuMjE5OSAzOS41MjU3IDQyLjI2ODkgMzguMjU0NiA0MS40MjE1QzM2Ljk5NzQgNDAuNTgzNCAzNS4xNDU1IDQwIDMzIDQwQzMwLjg1NDUgNDAgMjkuMDAyNiA0MC41ODM0IDI3Ljc0NTQgNDEuNDIxNUMyNi40NzQzIDQyLjI2ODkgMjYgNDMuMjE5OSAyNiA0NEMyNiA0NS4xMDQ2IDI1LjEwNDYgNDYgMjQgNDZDMjIuODk1NCA0NiAyMiA0NS4xMDQ2IDIyIDQ0QzIyIDQzLjIxOTkgMjEuNTI1NyA0Mi4yNjg5IDIwLjI1NDYgNDEuNDIxNUMxOC45OTc0IDQwLjU4MzQgMTcuMTQ1NSA0MCAxNSA0MEMxMi44NTQ1IDQwIDExLjAwMjYgNDAuNTgzNCA5Ljc0NTQ0IDQxLjQyMTVDOC40NzQzMyA0Mi4yNjg5IDggNDMuMjE5OSA4IDQ0QzggNDUuMTA0NiA3LjEwNDU3IDQ2IDYgNDZDNC44OTU0MyA0NiA0IDQ1LjEwNDYgNCA0NEM0IDQxLjQ2NjQgNS41NDAzOSAzOS40MTc0IDcuNTI2NjQgMzguMDkzM0M4LjI2MDg1IDM3LjYwMzggOS4wODIzNCAzNy4xOTE2IDkuOTY3ODMgMzYuODY1OUM4Ljc0OTYgMzUuNjA2NCA4IDMzLjg5MDcgOCAzMlpNMzMgMjlDMzEuMzQzMSAyOSAzMCAzMC4zNDMxIDMwIDMyQzMwIDMzLjY1NjkgMzEuMzQzMSAzNSAzMyAzNUMzNC42NTY5IDM1IDM2IDMzLjY1NjkgMzYgMzJDMzYgMzAuMzQzMSAzNC42NTY5IDI5IDMzIDI5WiIgZmlsbD0iI0VCOTQ0NyIvPgo8L3N2Zz4K" />
+                  <h4>1 млн клиентов</h4>
+                  <p>Уже страхуют жизнь у нас</p>
+               </div>
+
+               <div class="advantage__cards">
+                  <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yNCAxNkMyMS44NzgzIDE2IDE5Ljg0MzQgMTYuODQyOSAxOC4zNDMxIDE4LjM0MzJDMTYuODQyOSAxOS44NDM0IDE2IDIxLjg3ODMgMTYgMjRDMTYgMjYuMTIxNyAxNi44NDI5IDI4LjE1NjYgMTguMzQzMSAyOS42NTY5QzE5Ljg0MzQgMzEuMTU3MiAyMS44NzgzIDMyIDI0IDMyQzI2LjEyMTcgMzIgMjguMTU2NiAzMS4xNTcyIDI5LjY1NjkgMjkuNjU2OUMzMS4xNTcyIDI4LjE1NjYgMzIgMjYuMTIxNyAzMiAyNEMzMiAyMS44NzgzIDMxLjE1NzIgMTkuODQzNCAyOS42NTY5IDE4LjM0MzJDMjguMTU2NiAxNi44NDI5IDI2LjEyMTcgMTYgMjQgMTZaTTIxLjE3MTYgMjEuMTcxNkMyMS45MjE3IDIwLjQyMTQgMjIuOTM5MSAyMCAyNCAyMEMyNS4wNjA5IDIwIDI2LjA3ODMgMjAuNDIxNCAyNi44Mjg0IDIxLjE3MTZDMjcuNTc4NiAyMS45MjE3IDI4IDIyLjkzOTEgMjggMjRDMjggMjUuMDYwOSAyNy41Nzg2IDI2LjA3ODMgMjYuODI4NCAyNi44Mjg0QzI2LjA3ODMgMjcuNTc4NiAyNS4wNjA5IDI4IDI0IDI4QzIyLjkzOTEgMjggMjEuOTIxNyAyNy41Nzg2IDIxLjE3MTYgMjYuODI4NEMyMC40MjE0IDI2LjA3ODMgMjAgMjUuMDYwOSAyMCAyNEMyMCAyMi45MzkxIDIwLjQyMTQgMjEuOTIxNyAyMS4xNzE2IDIxLjE3MTZaIiBmaWxsPSIjRUI5NDQ3Ii8+CjxwYXRoIGQ9Ik0xMi40OTk5IDI1LjM0MzNDMTMuMjQyOSAyNC41MjYgMTMuMTgyNyAyMy4yNjExIDEyLjM2NTMgMjIuNTE4MUMxMS41NDggMjEuNzc1MSAxMC4yODMxIDIxLjgzNTQgOS41NDAxIDIyLjY1MjdMOS41MjAxIDIyLjY3NDdDOC43NzcxIDIzLjQ5MiA4LjgzNzM2IDI0Ljc1NjkgOS42NTQ2OSAyNS40OTk5QzEwLjQ3MiAyNi4yNDI5IDExLjczNjkgMjYuMTgyNyAxMi40Nzk5IDI1LjM2NTNMMTIuNDk5OSAyNS4zNDMzWiIgZmlsbD0iI0VCOTQ0NyIvPgo8cGF0aCBkPSJNMzguNDk5OSAyNS4zNDMzQzM5LjI0MjkgMjQuNTI2IDM5LjE4MjcgMjMuMjYxMSAzOC4zNjUzIDIyLjUxODFDMzcuNTQ4IDIxLjc3NTEgMzYuMjgzMSAyMS44MzU0IDM1LjU0MDEgMjIuNjUyN0wzNS41MjAxIDIyLjY3NDdDMzQuNzc3MSAyMy40OTIgMzQuODM3NCAyNC43NTY5IDM1LjY1NDcgMjUuNDk5OUMzNi40NzIgMjYuMjQyOSAzNy43MzY5IDI2LjE4MjcgMzguNDc5OSAyNS4zNjUzTDM4LjQ5OTkgMjUuMzQzM1oiIGZpbGw9IiNFQjk0NDciLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS44NTg5IDhDMTMuMTUwNiA3Ljk5OTkzIDEwLjkxNzQgNy45OTk4NyA5LjE0OTg4IDguMjM3NTFDNy4yOTQyMiA4LjQ4NyA1LjY1NTM3IDkuMDMwOTMgNC4zNDMxNSAxMC4zNDMyQzMuMDMwOTMgMTEuNjU1NCAyLjQ4NyAxMy4yOTQyIDIuMjM3NTEgMTUuMTQ5OUMxLjk5OTg3IDE2LjkxNzQgMS45OTk5MyAxOS4xNTA2IDIgMjEuODU4OUwyIDI2LjE0MTFDMS45OTk5MyAyOC44NDk0IDEuOTk5ODcgMzEuMDgyNiAyLjIzNzUxIDMyLjg1MDFDMi40ODcgMzQuNzA1OCAzLjAzMDkzIDM2LjM0NDYgNC4zNDMxNSAzNy42NTY5QzUuNjU1MzcgMzguOTY5MSA3LjI5NDIyIDM5LjUxMyA5LjE0OTg4IDM5Ljc2MjVDMTAuOTE3NCA0MC4wMDAxIDEzLjE1MDYgNDAuMDAwMSAxNS44NTg5IDQwSDMyLjE0MTJDMzQuODQ5NCA0MC4wMDAxIDM3LjA4MjYgNDAuMDAwMSAzOC44NTAxIDM5Ljc2MjVDNDAuNzA1OCAzOS41MTMgNDIuMzQ0NiAzOC45NjkxIDQzLjY1NjkgMzcuNjU2OUM0NC45NjkxIDM2LjM0NDYgNDUuNTEzIDM0LjcwNTggNDUuNzYyNSAzMi44NTAxQzQ2LjAwMDEgMzEuMDgyNiA0Ni4wMDAxIDI4Ljg0OTQgNDYgMjYuMTQxMVYyMS44NTg5QzQ2LjAwMDEgMTkuMTUwNyA0Ni4wMDAxIDE2LjkxNzQgNDUuNzYyNSAxNS4xNDk5QzQ1LjUxMyAxMy4yOTQyIDQ0Ljk2OTEgMTEuNjU1NCA0My42NTY5IDEwLjM0MzJDNDIuMzQ0NiA5LjAzMDkzIDQwLjcwNTggOC40ODcgMzguODUwMSA4LjIzNzUxQzM3LjA4MjYgNy45OTk4NyAzNC44NDk0IDcuOTk5OTMgMzIuMTQxMSA4SDE1Ljg1ODlaTTcuMTcxNTggMTMuMTcxNkM3LjYxNjcyIDEyLjcyNjQgOC4yNzA3NiAxMi4zOTE3IDkuNjgyODcgMTIuMjAxOEMxMS4xNTI1IDEyLjAwNDMgMTMuMTE1IDEyIDE2IDEySDMyQzM0Ljg4NSAxMiAzNi44NDc1IDEyLjAwNDMgMzguMzE3MSAxMi4yMDE4QzM5LjcyOTIgMTIuMzkxNyA0MC4zODMzIDEyLjcyNjQgNDAuODI4NCAxMy4xNzE2QzQxLjI3MzYgMTMuNjE2NyA0MS42MDgzIDE0LjI3MDggNDEuNzk4MiAxNS42ODI5QzQxLjk5NTggMTcuMTUyNSA0MiAxOS4xMTUgNDIgMjJWMjZDNDIgMjguODg1IDQxLjk5NTggMzAuODQ3NSA0MS43OTgyIDMyLjMxNzFDNDEuNjA4MyAzMy43MjkyIDQxLjI3MzYgMzQuMzgzMyA0MC44Mjg0IDM0LjgyODRDNDAuMzgzMyAzNS4yNzM2IDM5LjcyOTIgMzUuNjA4MyAzOC4zMTcxIDM1Ljc5ODJDMzYuODQ3NSAzNS45OTU4IDM0Ljg4NSAzNiAzMiAzNkgxNkMxMy4xMTUgMzYgMTEuMTUyNSAzNS45OTU4IDkuNjgyODcgMzUuNzk4MkM4LjI3MDc2IDM1LjYwODMgNy42MTY3MiAzNS4yNzM2IDcuMTcxNTggMzQuODI4NEM2LjcyNjQ0IDM0LjM4MzMgNi4zOTE2OSAzMy43MjkyIDYuMjAxODQgMzIuMzE3MUM2LjAwNDI1IDMwLjg0NzUgNiAyOC44ODUgNiAyNlYyMkM2IDE5LjExNSA2LjAwNDI1IDE3LjE1MjUgNi4yMDE4NCAxNS42ODI5QzYuMzkxNjkgMTQuMjcwOCA2LjcyNjQ0IDEzLjYxNjcgNy4xNzE1OCAxMy4xNzE2WiIgZmlsbD0iI0VCOTQ0NyIvPgo8L3N2Zz4K" />
+                  <h4>₪ 115 млн</h4>
+                  <p>Выплатили за 2022 год</p>
+               </div>
+
+               <div class="advantage__cards">
+                 <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zMy4zNjQyIDE0LjYzNThDMzIuODA5OCAxNC4wODE1IDMxLjk4MjYgMTMuOTAyMSAzMS4yNDg0IDE0LjE3NzFMMzEuMjE5NiAxNC4xODhMMzEuMTQwNiAxNC4yMTc4QzMxLjA3MTkgMTQuMjQzNyAzMC45NzE4IDE0LjI4MTcgMzAuODQ0MyAxNC4zMzA1QzMwLjU4OTMgMTQuNDI3OSAzMC4yMjQ1IDE0LjU2ODUgMjkuNzgyMyAxNC43NDE4QzI4Ljg5OSAxNS4wODgxIDI3LjcwMTUgMTUuNTY3NiAyNi40NTExIDE2LjA5ODJDMjUuMjA1NiAxNi42MjY2IDIzLjg4MzYgMTcuMjE1OCAyMi43NjAyIDE3Ljc4MTFDMjIuMTk5MiAxOC4wNjM0IDIxLjY2NTUgMTguMzUwOSAyMS4yMDU1IDE4LjYzMTZDMjAuNzczNCAxOC44OTUzIDIwLjI5NjQgMTkuMjE4MiAxOS45Mjg4IDE5LjU4NThDMTguODAzNSAyMC43MTExIDE4LjE3MTQgMjIuMjM3MiAxOC4xNzE0IDIzLjgyODZDMTguMTcxNCAyNS40MTk5IDE4LjgwMzUgMjYuOTQ2IDE5LjkyODggMjguMDcxM0MyMS4wNTQgMjkuMTk2NSAyMi41ODAyIDI5LjgyODcgMjQuMTcxNSAyOS44Mjg3QzI1Ljc2MjggMjkuODI4NyAyNy4yODkgMjkuMTk2NSAyOC40MTQyIDI4LjA3MTNDMjguNzgxOCAyNy43MDM3IDI5LjEwNDcgMjcuMjI2NyAyOS4zNjg0IDI2Ljc5NDZDMjkuNjQ5MSAyNi4zMzQ1IDI5LjkzNjYgMjUuODAwOCAzMC4yMTg5IDI1LjIzOThDMzAuNzg0MyAyNC4xMTY0IDMxLjM3MzQgMjIuNzk0NCAzMS45MDE5IDIxLjU0OUMzMi40MzI0IDIwLjI5ODUgMzIuOTExOSAxOS4xMDEgMzMuMjU4MiAxOC4yMTc4QzMzLjQzMTYgMTcuNzc1NiAzMy41NzIxIDE3LjQxMDcgMzMuNjY5NiAxNy4xNTU4QzMzLjcxODMgMTcuMDI4MiAzMy43NTYzIDE2LjkyODEgMzMuNzgyMyAxNi44NTk0TDMzLjgxMjEgMTYuNzgwNEwzMy44MjI5IDE2Ljc1MTZDMzQuMDk3OSAxNi4wMTc0IDMzLjkxODYgMTUuMTkwMiAzMy4zNjQyIDE0LjYzNThaTTI4LjM3MDIgMTkuNjI5OEMyOC4yNTE5IDE5LjY3OTUgMjguMTMyOSAxOS43Mjk4IDI4LjAxMzQgMTkuNzgwNEMyNi44MDI0IDIwLjI5NDMgMjUuNTcwMiAyMC44NDUgMjQuNTU4NCAyMS4zNTQyQzI0LjA1MTggMjEuNjA5MSAyMy42MjI2IDIxLjg0MjYgMjMuMjg5IDIyLjA0NjJDMjMuMTIyOSAyMi4xNDc1IDIyLjk5MzEgMjIuMjMzOCAyMi44OTYxIDIyLjMwNDNDMjIuNzk5NSAyMi4zNzQ2IDIyLjc2MDMgMjIuNDExNCAyMi43NTc0IDIyLjQxNDFDMjIuMzgyMyAyMi43ODkyIDIyLjE3MTQgMjMuMjk4MSAyMi4xNzE0IDIzLjgyODZDMjIuMTcxNCAyNC4zNTkgMjIuMzgyMSAyNC44Njc3IDIyLjc1NzIgMjUuMjQyOEMyMy4xMzIzIDI1LjYxNzkgMjMuNjQxIDI1LjgyODcgMjQuMTcxNSAyNS44Mjg3QzI0LjcwMTkgMjUuODI4NyAyNS4yMTA3IDI1LjYxNzkgMjUuNTg1OCAyNS4yNDI4QzI1LjU4NTggMjUuMjQyOCAyNS42MjE2IDI1LjIwNTggMjUuNjk1NyAyNS4xMDM5QzI1Ljc2NjIgMjUuMDA3IDI1Ljg1MjYgMjQuODc3MSAyNS45NTM5IDI0LjcxMTFDMjYuMTU3NCAyNC4zNzc1IDI2LjM5MDkgMjMuOTQ4MyAyNi42NDU5IDIzLjQ0MTdDMjcuMTU1MSAyMi40Mjk4IDI3LjcwNTggMjEuMTk3NyAyOC4yMTk2IDE5Ljk4NjZDMjguMjcwMyAxOS44NjcyIDI4LjMyMDUgMTkuNzQ4MiAyOC4zNzAyIDE5LjYyOThaIiBmaWxsPSIjRUI5NDQ3Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMzUuMDI3IDQuOTYwMjdDMzEuNjc3MSAzLjAxNTk4IDI3Ljg3MTcgMS45OTQ1NCAyMy45OTg1IDIuMDAwMDJDMTEuODQ4NiAyLjAwMDgyIDIgMTEuODQ5OSAyIDI0QzIgMzYuMTUwNiAxMS44NDk0IDQ2IDI0IDQ2QzM2LjE1MDYgNDYgNDYgMzYuMTUwNiA0NiAyNEM0NiAyMC4wMTM3IDQ0LjkzNzQgMTYuMjY3NyA0My4wNzkzIDEzLjA0MDFDNDIuNTI4MiAxMi4wODI5IDQxLjMwNTQgMTEuNzUzNiA0MC4zNDgxIDEyLjMwNDdDMzkuMzkwOSAxMi44NTU5IDM5LjA2MTYgMTQuMDc4NiAzOS42MTI3IDE1LjAzNTlDNDEuMTMwNiAxNy42NzI0IDQyIDIwLjczMjQgNDIgMjRDNDIgMzMuOTQxNSAzMy45NDE0IDQyIDI0IDQyQzE0LjA1ODYgNDIgNiAzMy45NDE1IDYgMjRDNiAxNC4wNTg2IDE0LjA1ODYgNi4wMDAwMiAyNCA2LjAwMDAyTDI0LjAwMyA2LjAwMDAyQzI3LjE2OTQgNS45OTUzMyAzMC4yODA1IDYuODMwMjggMzMuMDE5IDguNDE5NzhDMzMuOTc0MyA4Ljk3NDI1IDM1LjE5ODMgOC42NDkzMSAzNS43NTI4IDcuNjkzOTlDMzYuMzA3MiA2LjczODY3IDM1Ljk4MjMgNS41MTQ3NCAzNS4wMjcgNC45NjAyN1oiIGZpbGw9IiNFQjk0NDciLz4KPC9zdmc+Cg==" />
+                  <h4>Работаем быстро</h4>
+                  <p>Быстрее чем наш дизайнер</p>
+               </div>
+            </div>
+            <div class="advantage__banner">
+               <h2>Тематически подходящая вставка</h2>
+               <p>С картиночкой, текстиком и заголов очком. Свободно тянется вниз при добавлении текста.</p>
+               <div class="advantage__button">
+                  <a href="/">Хорошо</a>
+               </div>
+                  <img class="advantage__img" src="img/Consult.png" alt="консультант">
+            </div>
+        </section>
+      </div>
+   
+
+   
+      <section class="post">
+         <div class="container">
+            <div class="post__news">
+               <h2>Статьи и новости</h2>
+               <div class="post__cards">
+
+                  <div class="post__aside">
+                     <img src="img/posts/icon-1.jpg" alt="клавиатура">
+                     <div class="post__content">
+                        <div class="post__date">
+                           <div class="post__quote">Новости</div>
+                           <div class="post__img"></div>
+                           <div class="post__quote">23 января 2023</div>
+                        </div>
+                           <p class="post__text">В своём стремлении повысить качество жизни, они забывают, что укрепление и развитие внутренней структуры влечет за.</p>
+                        <div class="post__botton">
+                           <div class="post__quote" >Валерий Зойберг</div>
+                           <div class="post__chat">
+                             <div class="post__icon"></div>
+                             <div class="post__quote">1562</div>
+                             <div class="post__pic"></div>
+                             <div class="post__quote">12</div>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="post__aside">
+                     <img src="img/posts/icon-2.png" alt="клавиатура">
+                     <div class="post__content">
+                         <div class="post__date">
+                            <div class="post__quote">Новости</div>
+                            <div class="post__img"></div>
+                            <div class="post__quote">23 января 2023</div>
+                         </div>
+                            <p class="post__text">Безусловно, новая модель организационной деятельности однозначно фиксирует необходимость модели развития.</p>
+                         <div class="post__botton">
+                            <div class="post__quote">Александр Сыч</div>
+                            <div class="post__chat">
+                              <div class="post__icon"></div>
+                              <div class="post__quote">1562</div>
+                              <div class="post__pic"></div>
+                              <div class="post__quote">12</div>
+                            </div>
+                         </div>
+                     </div>
+                  </div>
+
+                  <div class="post__aside">
+                     <img src="img/posts/icon-1.jpg" alt="клавиатура">
+                     <div class="post__content">
+                        <div class="post__date">
+                           <div class="post__quote">Новости</div>
+                           <div class="post__img"></div>
+                           <div class="post__quote">23 января 2023</div>
+                        </div>
+                           <p class="post__text">В моём стремлении повысить качество жизни, они забывают, что укрепление и развитие внутренней структуры влечет за.</p>
+                        <div class="post__botton">
+                           <div class="post__quote">Валерия Петрова</div>
+                           <div class="post__chat">
+                             <div class="post__icon"></div>
+                             <div class="post__quote">421</div>
+                             <div class="post__pic"></div>
+                             <div class="post__quote">4</div>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <form class="click">
+                  <button><a href="/">Все акции </a></button>
+                  <input type="text" required placeholder="Все акции">
+               </form>
+            </div>
+         </div>
+      </section>
+    
+ 
+</body>
+</html>
